@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.battleship_solver.HelloController">
+    <Button fx:id="placeShipsButton" text="Place Ships" layoutX="14" layoutY="14" onAction="#onPlaceShips"/>
+    <Button fx:id="solveButton" text="Solve Game" layoutX="110" layoutY="14" onAction="#onSolveGame"/>
+    <GridPane fx:id="battleGrid" layoutX="14" layoutY="50" gridLinesVisible="true">
+        <!-- GridPane content dynamically generated in Controller -->
+    </GridPane>
+    <GridPane fx:id="mapGrid" layoutX="334" layoutY="50" gridLinesVisible="true">
+        <!-- GridPane content dynamically generated in Controller -->
+    </GridPane>
+</AnchorPane>
